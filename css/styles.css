@@ -116,6 +116,33 @@ h3 {
   color: #EE9B00;
 }
 
+.project-title,
+.project-info {
+  color: #E9D8A6;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.p-btn {
+  margin: 10px 10px;
+  outline: none;
+  border: none;
+  background-color: #CA6702;
+  color: #E9D8A6;
+  padding: 10px;
+  border-radius: 3px;
+  width: 75px;
+}
+
+.p-btn:hover {
+  background-color: #E9D8A6;
+  color: #001219;
+}
+
 * {
   font-family: "Rubik", sans-serif;
 }
