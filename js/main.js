@@ -1,4 +1,3 @@
-
 ///////////////////////////
 //       Skills 
 ///////////////////////////
@@ -136,3 +135,4 @@ failBtn.addEventListener('click', () => {
     emailFailed.style.display = 'none';
 
 })
+

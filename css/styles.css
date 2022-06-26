@@ -139,6 +139,20 @@ h3 {
   color: #001219;
 }
 
+.project-card {
+  transition: all 0.3s ease-in;
+  padding: 10px;
+  border-bottom: 5px solid #CA6702;
+  border-radius: 20px;
+}
+
+.project-card:hover {
+  background-color: rgba(233, 216, 166, 0.4470588235);
+  border-radius: 20px;
+  border-left: 10px solid #CA6702;
+  border-bottom: none;
+}
+
 #project-banner {
   color: #E9D8A6;
 }
