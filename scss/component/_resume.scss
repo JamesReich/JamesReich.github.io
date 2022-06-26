@@ -3,19 +3,19 @@
 
     margin: 20px 0;
     padding: 10px 5px;
-    border-bottom: 2px solid #EE9B00;
+    border-bottom: 2px solid $accent-color;
     transition: all 0.3s cubic-bezier(.44, -0.91, .61, 1.83);
 
 }
 
 .accordion-button:hover {
 
-    border-bottom: 10px solid #EE9B00;
+    border-bottom: 10px solid $accent-color;
 
 }
 
 h3 {
 
-    color: #EE9B00;
+    color: $accent-color;
 
 }

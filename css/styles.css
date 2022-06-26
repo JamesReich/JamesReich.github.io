@@ -1,9 +1,5 @@
 #Icon-Color:hover {
-  fill: #EE9B00;
-}
-
-.btn-primary {
-  background-color: red;
+  fill: #CA6702;
 }
 
 #skills-slider {
@@ -28,7 +24,7 @@
 }
 
 .skill-container {
-  border: 1px solid #EE9B00;
+  border: 1px solid #CA6702;
   border-top: 0;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -50,7 +46,7 @@
 }
 
 #skills-banner {
-  background-color: #EE9B00;
+  background-color: #CA6702;
   color: #001219;
   font-weight: 700;
   padding: 10px;
@@ -104,16 +100,16 @@
 .accordion-button {
   margin: 20px 0;
   padding: 10px 5px;
-  border-bottom: 2px solid #EE9B00;
+  border-bottom: 2px solid #CA6702;
   transition: all 0.3s cubic-bezier(0.44, -0.91, 0.61, 1.83);
 }
 
 .accordion-button:hover {
-  border-bottom: 10px solid #EE9B00;
+  border-bottom: 10px solid #CA6702;
 }
 
 h3 {
-  color: #EE9B00;
+  color: #CA6702;
 }
 
 .project-title,
@@ -172,8 +168,8 @@ main {
 }
 
 hr {
-  color: #EE9B00;
-  border: 1px #EE9B00 solid;
+  color: #CA6702;
+  border: 1px #CA6702 solid;
   margin-bottom: 50px;
 }
 
@@ -186,7 +182,7 @@ hr {
 }
 
 .nav-item a:hover {
-  color: #EE9B00;
+  color: #CA6702;
 }
 
 .card-img-overlay .card-title {
@@ -194,7 +190,7 @@ hr {
 }
 
 .card-img-overlay .card-text {
-  color: #EE9B00;
+  color: #CA6702;
 }
 
 #header-img {

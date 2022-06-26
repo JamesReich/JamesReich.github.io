@@ -1,7 +1,7 @@
 .project-title,
 .project-info {
 
-    color: #E9D8A6;
+    color: $primary-color;
 
 }
 
@@ -17,8 +17,8 @@
     margin: 10px 10px;
     outline: none;
     border: none;
-    background-color: #CA6702;
-    color: #E9D8A6;
+    background-color: $accent-color;
+    color: $primary-color;
     padding: 10px;
     border-radius: 3px;
     width: 75px;
@@ -27,13 +27,13 @@
 
 .p-btn:hover {
 
-    background-color: #E9D8A6;
-    color: #001219;
+    background-color: $primary-color;
+    color: $background-color;
 
 }
 
 #project-banner {
 
-    color: #E9D8A6;
+    color: $primary-color;
 
 }

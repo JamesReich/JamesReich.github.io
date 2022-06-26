@@ -1,13 +1,13 @@
 .card-img-overlay .card-title {
 
-    color: #E9D8A6;
+    color: $primary-color;
 
 
 }
 
 .card-img-overlay .card-text {
 
-    color: #EE9B00;
+    color: $accent-color;
 
 }
 
@@ -19,6 +19,6 @@
 
 header .card {
 
-    background-color: #001219;
+    background-color: $background-color;
 
 }

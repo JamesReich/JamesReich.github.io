@@ -6,12 +6,12 @@
 
 body {
 
-    background-color: #001219
+    background-color: $background-color
 }
 
 main {
 
-    background-color: #001219;
+    background-color: $background-color;
 
 }
 
@@ -24,14 +24,14 @@ main {
 .card-body {
 
 
-    background-color: #001219;
+    background-color: $background-color;
 
 }
 
 hr {
 
-    color: #EE9B00;
-    border: 1px #EE9B00 solid;
+    color: $accent-color;
+    border: 1px $accent-color solid;
     margin-bottom: 50px;
 
 }

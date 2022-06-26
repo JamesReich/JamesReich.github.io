@@ -1,17 +1,17 @@
 .navbar {
 
-    background-color: #001219;
+    background-color: $background-color;
 
 
 }
 
 .nav-item a {
-    color: #E9D8A6;
+    color: $primary-color;
 }
 
 .nav-item a:hover {
 
 
-    color: #EE9B00;
+    color: $accent-color;
 
 }

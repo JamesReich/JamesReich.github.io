@@ -1,12 +1,12 @@
 .contact-header {
 
-    color: #E9D8A6;
+    color: $primary-color;
 
 }
 
 .form-label {
 
-    color: #E9D8A6;
+    color: $primary-color;
 
 }
 
@@ -16,9 +16,9 @@
     justify-content: center;
     align-content: center;
     padding: 10px 0;
-    color: rgb(79, 221, 79);
-    background-color: rgba(79, 221, 79, 0.3);
-    border: 1px solid rgb(79, 221, 79);
+    color: $successText;
+    background-color: $successFade;
+    border: 1px solid $successText;
     border-radius: 5px;
 
 
@@ -30,9 +30,9 @@
     justify-content: center;
     align-content: center;
     padding: 10px 0;
-    color: rgb(221, 79, 79);
-    background-color: rgba(221, 79, 79, 0.3);
-    border: 1px solid rgb(221, 79, 79);
+    color: $failText;
+    background-color: $failFade;
+    border: 1px solid $failText;
     border-radius: 5px;
 
 

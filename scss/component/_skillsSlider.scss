@@ -1,6 +1,6 @@
 #skills-slider {
 
-    color: #E9D8A6;
+    color: $primary-color;
     width: 100%;
 
 }
@@ -33,7 +33,7 @@
 
 .skill-container {
 
-    border: 1px solid #EE9B00;
+    border: 1px solid $accent-color;
     border-top: 0;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -62,8 +62,8 @@
 
 #skills-banner {
 
-    background-color: #EE9B00;
-    color: #001219;
+    background-color: $accent-color;
+    color: $background-color;
     font-weight: 700;
     padding: 10px;
     margin: 10px 0;
