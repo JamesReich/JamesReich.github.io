@@ -10,11 +10,49 @@
 
 .accordion-button:hover {
 
-    border-bottom: 10px solid $accent-color;
+    border-bottom: 10px solid $hover-alt;
 
 }
 
 h3 {
+
+    color: $accent-color;
+
+}
+
+.modal-body p {
+
+    color: $background-color;
+
+}
+
+.modal-body h4 {
+
+    color: $primary-color;
+
+}
+
+.modal-header h5 {
+
+    color: $accent-color;
+
+}
+
+.modal-body strong {
+
+    color: $accent-color;
+
+}
+
+.accordion-item li {
+
+
+    color: $background-color;
+
+}
+
+.accordion-item em {
+
 
     color: $accent-color;
 

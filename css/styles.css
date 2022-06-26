@@ -1,5 +1,5 @@
 #Icon-Color:hover {
-  fill: #446F75;
+  fill: rgba(68, 111, 117, 0.4235294118);
 }
 
 #skills-slider {
@@ -105,10 +105,34 @@
 }
 
 .accordion-button:hover {
-  border-bottom: 10px solid #446F75;
+  border-bottom: 10px solid #BBE74B;
 }
 
 h3 {
+  color: #446F75;
+}
+
+.modal-body p {
+  color: #222928;
+}
+
+.modal-body h4 {
+  color: #71A6AD;
+}
+
+.modal-header h5 {
+  color: #446F75;
+}
+
+.modal-body strong {
+  color: #446F75;
+}
+
+.accordion-item li {
+  color: #222928;
+}
+
+.accordion-item em {
   color: #446F75;
 }
 
@@ -200,6 +224,15 @@ hr {
   color: #BBE74B;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #BBE74B;
+}
+
+#footer-wrapper {
+  border-top: 1px solid #446F75;
+}
+
 .card-img-overlay .card-title {
   color: #FFFFFF;
 }
@@ -209,7 +242,7 @@ hr {
 }
 
 #header-img {
-  opacity: 60%;
+  opacity: 70%;
 }
 
 header .card {

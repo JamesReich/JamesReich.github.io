@@ -15,3 +15,17 @@
     color: $hover-alt;
 
 }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+
+    color: $hover-alt;
+
+}
+
+#footer-wrapper {
+
+
+    border-top: 1px solid $accent-color;
+
+}
