@@ -111,6 +111,7 @@ window.onload = function () {
                     messageForm.style.border = ''
                     emailForm.style.border = ''
 
+                    emailFailed.style.display = '';
 
                 }, function (error) {
                     console.log('FAILED...', error);
