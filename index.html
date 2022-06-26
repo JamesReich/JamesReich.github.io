@@ -16,6 +16,8 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <title>James Reich | Web Developer</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body id="home" class="d-flex flex-column h-100" data-bs-spy="scroll" data-bs-target=".navbar" data-offset="100">
@@ -489,7 +491,8 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <form id="contact-form">
+                    <form action="?" method="POST" id="contact-form">
+                        <div class="g-recaptcha" data-sitekey="6LeDHp8gAAAAAIMZJUXSOYsrHsoWpZk8KemHeVSk"></div>
                         <input type="hidden" name="contact_number">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name:</label>
@@ -503,7 +506,8 @@
                             <label for="message" class="form-label">Message:</label>
                             <textarea class="form-control" name="message" id="message" rows="3"></textarea>
                         </div>
-                        <button type="submit" value="send" class="btn btn-outline-warning w-100">Send Message</button>
+                        <button type="submit" value="send" class="btn btn-outline-warning w-100">Send
+                            Message</button>
 
                     </form>
                 </div>
@@ -588,6 +592,8 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- CSS only -->
+
+
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
