@@ -156,7 +156,7 @@ failBtn.addEventListener('click', () => {
 
             autoplay: true,
 
-            isMobile: window.matchMedia('(max-width: 320px)').matches,
+            isMobile: window.matchMedia('(max-width: 768px)').matches,
 
             playButton: document.querySelector('#play'),
             pauseButton: document.querySelector('#pause'),
@@ -169,8 +169,8 @@ failBtn.addEventListener('click', () => {
                     type: 'video/mp4'
                 },
                 {
-                    src: 'night.webm',
-                    type: 'video/webm;codecs="vp8, vorbis"'
+                    src: 'img/particles.gif',
+                    type: 'image/gif'
                 }
             ],
 
