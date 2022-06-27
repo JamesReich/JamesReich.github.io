@@ -140,6 +140,18 @@
   text-align: center;
 }
 
+.form-control {
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  color: #222928;
+  background-color: #FFFFFF;
+  border: none;
+  border-bottom: 8px solid #BBE74B;
+  box-shadow: none;
+}
+
 .accordion-button {
   margin: 20px 0;
   padding: 10px 5px;
