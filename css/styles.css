@@ -88,6 +88,14 @@
   border: 2px solid #BBE74B;
 }
 
+.skill-container h5 {
+  color: #BBE74B;
+}
+
+.skill-container p {
+  color: #71A6AD;
+}
+
 .contact-header {
   color: #FFFFFF;
 }
