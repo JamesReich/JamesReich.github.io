@@ -353,7 +353,7 @@ span .navbar-toggler-icon {
 #video_cover {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 570px;
   background: url("../img/particles.gif") no-repeat;
   background-size: cover;
   background-position: center;
@@ -365,7 +365,7 @@ span .navbar-toggler-icon {
   left: 50%;
   transform: translate(-50%, -50%);
   object-fit: cover;
-  height: 570px;
+  height: 470px;
   width: 100%;
 }
 
