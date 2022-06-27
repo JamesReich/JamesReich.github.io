@@ -18,7 +18,7 @@
     outline: none;
     border: none;
     background-color: $accent-color;
-    color: $background-color;
+    color: $hover-alt;
     padding: 10px;
     border-radius: 3px;
     width: 75px;
@@ -27,8 +27,8 @@
 
 .p-btn:hover {
 
-    background-color: $hover-color;
-    color: $hover-alt;
+    background-color: $hover-alt;
+    color: $background-color;
 
 }
 

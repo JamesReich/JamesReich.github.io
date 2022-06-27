@@ -29,3 +29,18 @@
     border-top: 1px solid $accent-color;
 
 }
+
+.navbar-toggler {
+
+    color: $primary-color;
+    border: 1px solid $primary-color;
+
+
+}
+
+span .navbar-toggler-icon {
+
+
+    color: $hover-alt;
+
+}
