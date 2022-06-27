@@ -33,6 +33,20 @@
 
 }
 
+.project-buttons .p-btn {
+
+    text-align: center;
+
+}
+
+.project-buttons .p-btn:hover {
+
+    text-decoration: none;
+    color: $background-color;
+    text-align: center;
+
+}
+
 .project-card {
 
     transition: all 0.3s ease-in;

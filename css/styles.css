@@ -43,6 +43,7 @@
   margin: 0 10px;
   margin-top: -1px;
   padding: 5px;
+  height: 370px;
 }
 
 .skills-icon {
@@ -196,6 +197,16 @@ h3 {
 .p-btn:hover {
   background-color: #BBE74B;
   color: #222928;
+}
+
+.project-buttons .p-btn {
+  text-align: center;
+}
+
+.project-buttons .p-btn:hover {
+  text-decoration: none;
+  color: #222928;
+  text-align: center;
 }
 
 .project-card {
@@ -367,7 +378,6 @@ span .navbar-toggler-icon {
 #header-card-title {
   color: #71A6AD;
   background-color: rgba(0, 0, 0, 0);
-  background-color: none;
   border-bottom: none;
   border: none;
 }
@@ -375,7 +385,6 @@ span .navbar-toggler-icon {
 #header-card-body {
   color: #BBE74B;
   background-color: rgba(0, 0, 0, 0);
-  background-color: none;
   border: none;
 }
 
