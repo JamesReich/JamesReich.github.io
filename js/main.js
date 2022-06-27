@@ -140,46 +140,46 @@ failBtn.addEventListener('click', () => {
 
 })
 
-    ///////////////////////////
-    //       VIDEO BG
-    ///////////////////////////
+///////////////////////////
+//       VIDEO BG
+///////////////////////////
 
-    (function () {
 
-        var bv = new Bideo();
-        bv.init({
-            // Video element
-            videoEl: document.querySelector('#background_video'),
 
-            // Container element
-            container: document.querySelector('video-container'),
+var bv = new Bideo();
 
-            // Resize
-            resize: true,
+bv.init({
+    // Video element
+    videoEl: document.querySelector('#background_video'),
 
-            autoplay: true,
+    // Container element
+    container: document.querySelector('video-container'),
 
-            isMobile: window.matchMedia('(max-width: 768px)').matches,
+    // Resize
+    resize: true,
 
-            playButton: document.querySelector('#play'),
-            pauseButton: document.querySelector('#pause'),
+    autoplay: true,
 
-            // Array of objects containing the src and type
-            // of different video formats to add
-            src: [
-                {
-                    src: 'video/particles.mp4',
-                    type: 'video/mp4'
-                },
-                {
-                    src: 'img/particles.gif',
-                    type: 'image/gif'
-                }
-            ],
+    isMobile: window.matchMedia('(max-width: 768px)').matches,
 
-            // What to do once video loads (initial frame)
-            onLoad: function () {
-                document.querySelector('#video_cover').style.display = 'none';
-            }
-        });
-    }());
+    playButton: document.querySelector('#play'),
+    pauseButton: document.querySelector('#pause'),
+
+    // Array of objects containing the src and type
+    // of different video formats to add
+    src: [
+        {
+            src: 'video/particles.mp4',
+            type: 'video/mp4'
+        },
+        {
+            src: 'img/particles.gif',
+            type: 'image/gif'
+        }
+    ],
+
+    // What to do once video loads (initial frame)
+    onLoad: function () {
+        document.querySelector('#video_cover').style.display = 'none';
+    }
+});
