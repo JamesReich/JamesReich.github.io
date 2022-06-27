@@ -194,6 +194,16 @@ h3 {
   color: #FFFFFF;
 }
 
+.project-card a {
+  color: #BBE74B;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  color: #BBE74B;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   #video_cover {
     position: absolute;

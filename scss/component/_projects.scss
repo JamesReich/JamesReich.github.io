@@ -58,3 +58,18 @@
     color: $font-color;
 
 }
+
+.project-card a {
+
+    color: $hover-alt;
+    text-decoration: none;
+
+}
+
+.project-card a:hover {
+
+    color: $hover-alt;
+    text-decoration: underline;
+
+
+}
