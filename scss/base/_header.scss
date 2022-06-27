@@ -33,3 +33,38 @@
     right: 0;
     bottom: 0;
 }
+
+.card-header {
+
+    border-bottom: none;
+    margin-top: 50px;
+
+}
+
+.card-title {
+
+    margin-bottom: 30px;
+
+}
+
+#header-card-title {
+
+    color: $primary-color;
+    background-color: #00000000;
+    background-color: none;
+    border-bottom: none;
+    border: none;
+
+
+
+}
+
+
+#header-card-body {
+
+    color: $hover-alt;
+    background-color: #00000000;
+    background-color: none;
+    border: none;
+
+}
