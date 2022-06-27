@@ -3,12 +3,13 @@
 ///////////////////////////
 
 const skillsCont = document.getElementById('skills-slider');
+const skillsArrows = document.getElementById('skills-arrows');
 
 $(skillsCont).ready(function () {
     $('#skills-slider').slick({
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 1000,
-        arrows: false,
+        arrows: true,
         cssEase: 'ease',
         centerMode: true,
         draggable: true,
@@ -18,6 +19,8 @@ $(skillsCont).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 3,
         useCss: true,
+        swipe: true,
+        appendArrows: $(skillsArrows),
         responsive: [
             {
                 breakpoint: 1024,

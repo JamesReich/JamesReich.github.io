@@ -11,6 +11,7 @@
         background-position: center;
         visibility: visible;
         z-index: 1000;
+        display: none;
 
 
 
@@ -38,5 +39,27 @@
     #header-card-body {
         margin: 0;
     }
+
+    .card-header {
+
+        border-bottom: none;
+        margin-top: 50px;
+
+    }
+
+    .header-card-wrapper {
+
+        width: 80%;
+        margin: 0 auto;
+        border-bottom: 2px solid $hover-alt;
+    }
+
+    #skills-arrows button {
+
+        margin: 20px 30px;
+
+
+    }
+
 
 }

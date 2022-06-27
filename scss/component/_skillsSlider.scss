@@ -70,3 +70,30 @@
 
 
 }
+
+#skills-arrows {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#skills-arrows button {
+
+    margin: 20px 30px;
+    border-radius: 5px;
+    width: 25%;
+    color: $primary-color;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid $primary-color;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#skills-arrows button:hover {
+    color: $background-color;
+    background-color: $hover-alt;
+    border: 2px solid $hover-alt;
+
+}
