@@ -27,7 +27,7 @@
   display: none;
 }
 
-#skills-slider>div {
+#skills-slider > div {
   text-align: center;
 }
 
@@ -256,39 +256,31 @@ h3 {
     z-index: 1000;
     display: none;
   }
-
   #background_video {
     display: none;
   }
-
   .card-title {
     margin: 0;
   }
-
   #header-card-title {
     margin: 0;
   }
-
   #header-card-body {
     margin: 0;
   }
-
   .card-header {
     border-bottom: none;
     margin-top: 50px;
   }
-
   .header-card-wrapper {
     width: 80%;
     margin: 0 auto;
     border-bottom: 2px solid #BBE74B;
   }
-
   #skills-arrows button {
     margin: 20px 30px;
   }
 }
-
 * {
   font-family: "Rubik", sans-serif;
   color: #FFFFFF;
@@ -333,7 +325,7 @@ hr {
 }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
+.navbar-nav .show > .nav-link {
   color: #BBE74B;
 }
 
@@ -353,8 +345,8 @@ span .navbar-toggler-icon {
 #video_cover {
   position: absolute;
   width: 100%;
-  height: 570px;
-  background: url("../img/particles.gif") no-repeat;
+  height: 100%;
+  background: url("img/particles.gif") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -365,12 +357,12 @@ span .navbar-toggler-icon {
   left: 50%;
   transform: translate(-50%, -50%);
   object-fit: cover;
-  height: 470px;
+  height: 570px;
   width: 100%;
 }
 
 #container {
-  height: 100%;
+  height: auto;
 }
 
 #container {
