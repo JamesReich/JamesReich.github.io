@@ -54,6 +54,7 @@ $(skillsCont).ready(function () {
 ///////////////////////////
 const nameForm = document.getElementById('name');
 const emailForm = document.getElementById('email');
+const phoneForm = document.getElementById('phone');
 const messageForm = document.getElementById('message');
 const emailSent = document.getElementById('email-success');
 const successBtn = document.getElementById('success-btn');
@@ -106,6 +107,7 @@ window.onload = function () {
 
                     nameForm.value = '';
                     emailForm.value = '';
+                    phoneForm.value = '';
                     messageForm.value = '';
 
                     emailSent.style.display = '';
