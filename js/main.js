@@ -73,6 +73,43 @@ const messagePlaceholder = document.getElementsByName('message');
 emailSent.style.display = 'none';
 emailFailed.style.display = 'none';
 
+// ///////////////////////////
+// //    Discord Webhook
+// ///////////////////////////
+
+async function sendContact(ev) {
+
+    ev.preventDefault();
+
+    const webhookBody = {
+        embeds: [{
+            title: 'Contact Form Submitted',
+            fields: [
+                { name: 'From:', value: nameForm.value },
+                { name: 'Email:', value: emailForm.value },
+                { name: 'Message:', value: messageForm.value }
+            ]
+        }],
+    };
+
+    const webhookUrl = 'https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai';
+
+    const response = await fetch(webhookUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(webhookBody),
+    });
+
+    if (response.ok) {
+        alert('I have received your message!');
+    } else {
+        alert('There was an error! Try again later!');
+    }
+
+}
+
 window.onload = function () {
     document.getElementById('contact-form').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -122,41 +159,6 @@ window.onload = function () {
                     emailForm.style.border = ''
 
                     emailFailed.style.display = 'none';
-
-                    // ///////////////////////////
-                    // //    Discord Webhook
-                    // ///////////////////////////
-
-                    async function sendContact(ev) {
-
-                        const webhookBody = {
-                            embeds: [{
-                                title: 'Contact Form Submitted',
-                                fields: [
-                                    { name: 'From:', value: nameForm.value },
-                                    { name: 'Email:', value: emailForm.value },
-                                    { name: 'Message:', value: messageForm.value }
-                                ]
-                            }],
-                        };
-
-                        const webhookUrl = 'https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai';
-
-                        const response = await fetch(webhookUrl, {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json',
-                            },
-                            body: JSON.stringify(webhookBody),
-                        });
-
-                        if (response.ok) {
-                            alert('I have received your message!');
-                        } else {
-                            alert('There was an error! Try again later!');
-                        }
-
-                    }
 
 
                 }, function (error) {
