@@ -1,4 +1,4 @@
-
+import { MessageEmbed, WebhookClient } from 'discord.js';
 
 
 
@@ -56,7 +56,6 @@ $(skillsCont).ready(function () {
 ///////////////////////////
 //       EMAIL
 ///////////////////////////
-import { MessageEmbed, WebhookClient } from 'discord.js';
 
 const nameForm = document.getElementById('name');
 const emailForm = document.getElementById('email');
