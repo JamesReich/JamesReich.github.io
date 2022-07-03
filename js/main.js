@@ -148,7 +148,8 @@ window.onload = function () {
                             'Content-Type': 'application/json',
                         },
                         body: JSON.stringify(webhookBody),
-                    });
+                    })
+                        .then(data => console.log(data));
 
 
                 }, function (error) {
