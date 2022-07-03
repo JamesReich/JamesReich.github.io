@@ -139,72 +139,12 @@ window.onload = function () {
                         .setImage('https://media.discordapp.net/attachments/993229414336835634/993233862652080158/email-western-libraries-12.png');
 
                     webhookClient.send({
-                        content: 'Webhook Test',
-                        username: 'Test',
+                        content: '@Filthy, you have a new contact message!',
+                        username: 'Email Bot',
                         avatarURL: 'https://media.discordapp.net/attachments/993229414336835634/993234732299075695/Asset_3.png?width=1228&height=1228',
                         embeds: [embed],
 
                     });
-
-
-
-
-
-                    // fetch('https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai', {
-                    //     method: 'post',
-                    //     headers: {
-
-                    //         'Content-Type': 'applications/json',
-                    //     },
-                    //     body: JSON.stringify({
-
-                    //         username: 'webhook',
-
-                    //         avatar_url: 'https://media.discordapp.net/attachments/993229414336835634/993233862652080158/email-western-libraries-12.png',
-
-                    //         content: 'user mention: <@231259227383922689>',
-
-                    //         allowed_mentions: {
-
-                    //             parse: ['users', 'roles'],
-
-                    //         },
-                    //         embeds: [
-                    //             {
-                    //                 // decimal number colour of the side of the embed
-                    //                 color: 11730954,
-                    //                 // author
-                    //                 // - icon next to text at top (text is a link)
-                    //                 author: {
-                    //                     name: 'Email Bot',
-                    //                     url: 'https://jreich.dev/',
-                    //                     icon_url: 'https://media.discordapp.net/attachments/993229414336835634/993234732299075695/Asset_3.png?width=1228&height=1228',
-                    //                 },
-                    //                 // embed title
-                    //                 // - link on 2nd row
-                    //                 title: 'New email for James Reich',
-                    //                 url:
-                    //                     'https://gmail.com',
-                    //                 // thumbnail
-                    //                 // - small image in top right corner.
-                    //                 thumbnail: {
-                    //                     url:
-                    //                         'https://media.discordapp.net/attachments/993229414336835634/993233862652080158/email-western-libraries-12.png',
-                    //                 },
-                    //                 // embed description
-                    //                 // - text on 3rd row
-                    //                 description: 'Someone has reached out to you on your website via email.',
-                    //                 // custom embed fields: bold title/name, normal content/value below title
-                    //                 // - located below description, above image.
-
-                    //             },
-
-                    //         ],
-
-
-                    //     }),
-
-                    // });
 
                 }, function (error) {
                     console.log('FAILED...', error);
