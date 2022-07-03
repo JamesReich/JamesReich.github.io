@@ -127,26 +127,36 @@ window.onload = function () {
                     // //    Discord Webhook
                     // ///////////////////////////
 
-                    const webhookBody = {
-                        embeds: [{
-                            title: 'Contact Form Submitted',
-                            fields: [
-                                { name: 'From:', value: nameForm.value },
-                                { name: 'Email:', value: emailForm.value },
-                                { name: 'Message:', value: messageForm.value }
-                            ]
-                        }],
-                    };
+                    async function sendContact(ev) {
 
-                    const webhookUrl = 'https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai';
+                        const webhookBody = {
+                            embeds: [{
+                                title: 'Contact Form Submitted',
+                                fields: [
+                                    { name: 'From:', value: nameForm.value },
+                                    { name: 'Email:', value: emailForm.value },
+                                    { name: 'Message:', value: messageForm.value }
+                                ]
+                            }],
+                        };
 
-                    fetch(webhookUrl, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify(webhookBody),
-                    });
+                        const webhookUrl = 'https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai';
+
+                        const response = await fetch(webhookUrl, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify(webhookBody),
+                        });
+
+                        if (response.ok) {
+                            alert('I have received your message!');
+                        } else {
+                            alert('There was an error! Try again later!');
+                        }
+
+                    }
 
 
                 }, function (error) {
