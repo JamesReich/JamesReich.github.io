@@ -127,18 +127,13 @@ window.onload = function () {
                     // //    Discord Webhook
                     // ///////////////////////////
 
-                    const senderName = nameForm.value;
-                    const senderMessage = messageForm.value;
-                    const senderEmail = emailForm.value;
-
-
                     const webhookBody = {
                         embeds: [{
                             title: 'Contact Form Submitted',
                             fields: [
-                                { name: 'From:', value: senderName },
-                                { name: 'Email:', value: senderEmail },
-                                { name: 'Message:', value: senderMessage }
+                                { name: 'From:', value: nameForm.value },
+                                { name: 'Email:', value: emailForm.value },
+                                { name: 'Message:', value: messageForm.value }
                             ]
                         }],
                     };
