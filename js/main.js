@@ -56,6 +56,8 @@ $(skillsCont).ready(function () {
 ///////////////////////////
 //       EMAIL
 ///////////////////////////
+import { MessageEmbed, WebhookClient } from 'discord.js';
+
 const nameForm = document.getElementById('name');
 const emailForm = document.getElementById('email');
 const phoneForm = document.getElementById('phone');
@@ -125,8 +127,6 @@ window.onload = function () {
                     ///////////////////////////
                     //    Discord Webhook
                     ///////////////////////////
-
-                    const { MessageEmbed, WebhookClient } = require('discord.js');
 
                     const webhookClient = new WebhookClient({ url: 'https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai' });
 
