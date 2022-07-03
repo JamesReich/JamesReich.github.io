@@ -89,8 +89,8 @@ document.getElementById('contact-form').addEventListener('submit', (ev) => {
             url: 'https://gmail.com',
             fields: [
                 { name: 'From:', value: nameForm.value },
-                { name: 'Email:', value: emailForm.value, inline: true },
-                { name: 'Phone:', value: phoneForm.value, inline: true },
+                { name: 'Email:', value: emailForm.value },
+                { name: 'Phone:', value: phoneForm.value },
                 { name: 'Message:', value: messageForm.value }
             ],
             thumbnail: 'https://media.discordapp.net/attachments/993229414336835634/993233862652080158/email-western-libraries-12.png',
