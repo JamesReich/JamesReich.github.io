@@ -94,7 +94,6 @@ document.getElementById('contact-form').addEventListener('submit', (ev) => {
                 { name: 'Message:', value: messageForm.value }
             ],
             thumbnail: 'https://media.discordapp.net/attachments/993229414336835634/993233862652080158/email-western-libraries-12.png',
-            color: '1536767',
 
         }],
     };
