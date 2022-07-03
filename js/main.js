@@ -83,18 +83,12 @@ document.getElementById('contact-form').addEventListener('submit', (ev) => {
 
     const webhookBody = {
         embeds: [{
-            content: '<@231259227383922689>, you have a new contact message!',
-            title: 'Contact Form',
-            description: 'You have recieved a new message via the contact form on your website.',
-            url: 'https://gmail.com',
+            title: 'Contact Form Submitted',
             fields: [
                 { name: 'From:', value: nameForm.value },
                 { name: 'Email:', value: emailForm.value },
-                { name: 'Phone:', value: phoneForm.value },
                 { name: 'Message:', value: messageForm.value }
-            ],
-            thumbnail: 'https://media.discordapp.net/attachments/993229414336835634/993233862652080158/email-western-libraries-12.png',
-
+            ]
         }],
     };
 
