@@ -149,7 +149,7 @@ window.onload = function () {
                         },
                         body: JSON.stringify(webhookBody),
                     })
-                        .then(data => console.log(data));
+                        .then(data => console.log(webhookBody));
 
 
                 }, function (error) {
