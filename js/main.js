@@ -92,7 +92,7 @@ document.getElementById('contact-form').addEventListener('submit', (ev) => {
         }],
     };
 
-    const webhookUrl = 'https://discord.com/api/webhooks/993229494536110142/8lM6Lnq0OEifMiHLi-qjBr504ZY5j738aRNCRNr_8nq55X7MN0limcctlrHvaCYNA-ai';
+    const webhookUrl = '';
 
     fetch(webhookUrl, {
         method: 'POST',
