@@ -1,49 +1,40 @@
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_button.scss */
 #Icon-Color:hover {
   fill: #BBE74B;
 }
 
-/* line 7, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_button.scss */
 .cust-button {
   color: #71A6AD;
   border: 2px solid #71A6AD;
   transition: all 0.3s ease-in-out;
 }
 
-/* line 15, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_button.scss */
 .cust-button:hover {
   color: #222928;
   background-color: #BBE74B;
   border: 2px solid #BBE74B;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-slider {
   color: #FFFFFF;
   width: 100%;
 }
 
-/* line 8, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-slider ul {
   display: flex;
 }
 
-/* line 15, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-slider button {
   display: none;
 }
 
-/* line 21, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-slider > div {
   text-align: center;
 }
 
-/* line 28, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-slider li {
   display: none;
 }
 
-/* line 34, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 .skill-container {
   border: 1px solid #446F75;
   border-top: 0;
@@ -55,13 +46,11 @@
   height: 370px;
 }
 
-/* line 46, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 .skills-icon {
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 55, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 .skill-container {
   display: flex;
   justify-content: center;
@@ -69,7 +58,6 @@
   width: 25%;
 }
 
-/* line 64, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-banner {
   background-color: #446F75;
   color: #222928;
@@ -78,14 +66,12 @@
   margin: 10px 0;
 }
 
-/* line 75, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-arrows {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-/* line 83, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-arrows button {
   margin: 20px 30px;
   border-radius: 5px;
@@ -96,58 +82,50 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* line 95, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 #skills-arrows button:hover {
   color: #222928;
   background-color: #BBE74B;
   border: 2px solid #BBE74B;
 }
 
-/* line 102, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 .skill-container h5 {
   color: #BBE74B;
 }
 
-/* line 108, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_skillsSlider.scss */
 .skill-container p {
   color: #71A6AD;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 .contact-header {
   color: #FFFFFF;
 }
 
-/* line 7, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 .form-label {
   color: #FFFFFF;
 }
 
-/* line 13, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 #email-success {
   display: flex;
   justify-content: center;
   align-content: center;
   padding: 10px 0;
-  color: #4fdd4f;
+  color: rgb(79, 221, 79);
   background-color: rgba(79, 221, 79, 0.3);
-  border: 1px solid #4fdd4f;
+  border: 1px solid rgb(79, 221, 79);
   border-radius: 5px;
 }
 
-/* line 27, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 #email-failed {
   display: flex;
   justify-content: center;
   align-content: center;
   padding: 10px 0;
-  color: #dd4f4f;
+  color: rgb(221, 79, 79);
   background-color: rgba(221, 79, 79, 0.3);
-  border: 1px solid #dd4f4f;
+  border: 1px solid rgb(221, 79, 79);
   border-radius: 5px;
 }
 
-/* line 41, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 #success-btn,
 #fail-btn {
   flex-grow: 0;
@@ -156,19 +134,16 @@
   cursor: pointer;
 }
 
-/* line 52, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 #email-success h4,
 #email-failed h4 {
   flex-grow: 1;
   text-align: center;
 }
 
-/* line 61, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 .form-control {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 67, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_form.scss */
 .form-control:focus {
   color: #222928;
   background-color: #FFFFFF;
@@ -177,7 +152,6 @@
   box-shadow: none;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .accordion-button {
   margin: 20px 0;
   padding: 10px 5px;
@@ -185,60 +159,49 @@
   transition: all 0.3s cubic-bezier(0.44, -0.91, 0.61, 1.83);
 }
 
-/* line 11, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .accordion-button:hover {
   border-bottom: 10px solid #BBE74B;
 }
 
-/* line 17, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 h3 {
   color: #446F75;
 }
 
-/* line 23, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .modal-body p {
   color: #222928;
 }
 
-/* line 29, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .modal-body h4 {
   color: #71A6AD;
 }
 
-/* line 35, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .modal-header h5 {
   color: #446F75;
 }
 
-/* line 41, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .modal-body strong {
   color: #446F75;
 }
 
-/* line 47, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .accordion-item li {
   color: #222928;
 }
 
-/* line 54, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_resume.scss */
 .accordion-item em {
   color: #446F75;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-title,
 .project-info {
   color: #FFFFFF;
 }
 
-/* line 8, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-buttons {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-/* line 15, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .p-btn {
   margin: 10px 10px;
   outline: none;
@@ -251,25 +214,21 @@ h3 {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 29, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .p-btn:hover {
   background-color: #BBE74B;
   color: #222928;
 }
 
-/* line 36, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-buttons .p-btn {
   text-align: center;
 }
 
-/* line 42, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-buttons .p-btn:hover {
   text-decoration: none;
   color: #222928;
   text-align: center;
 }
 
-/* line 50, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-card {
   transition: all 0.3s ease-in;
   padding: 10px;
@@ -277,32 +236,27 @@ h3 {
   border-radius: 20px;
 }
 
-/* line 59, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-card:hover {
-  background-color: #446f756c;
+  background-color: rgba(68, 111, 117, 0.4235294118);
   border-radius: 20px;
   border-bottom: 10px solid #BBE74B;
 }
 
-/* line 69, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 #project-banner {
   color: #FFFFFF;
 }
 
-/* line 75, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-card a {
   color: #BBE74B;
   text-decoration: none;
 }
 
-/* line 82, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_projects.scss */
 .project-card a:hover {
   color: #BBE74B;
   text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 3, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   #video_cover {
     position: absolute;
     height: 50%;
@@ -314,115 +268,92 @@ h3 {
     z-index: 1000;
     display: none;
   }
-  /* line 20, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   #background_video {
     display: none;
   }
-  /* line 26, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   .card-title {
     margin: 0;
   }
-  /* line 32, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   #header-card-title {
     margin: 0;
   }
-  /* line 39, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   #header-card-body {
     margin: 0;
   }
-  /* line 43, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   .card-header {
     border-bottom: none;
     margin-top: 50px;
   }
-  /* line 50, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   .header-card-wrapper {
     width: 80%;
     margin: 0 auto;
     border-bottom: 2px solid #BBE74B;
   }
-  /* line 57, ../../OneDrive/VSCode/JamesReich.github.io/scss/component/_mqueries.scss */
   #skills-arrows button {
     margin: 20px 30px;
   }
 }
-
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_typography.scss */
 * {
   font-family: "Rubik", sans-serif;
   color: #FFFFFF;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_base.scss */
 * {
   hyphens: auto;
 }
 
-/* line 7, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_base.scss */
 body {
   background-color: #222928;
 }
 
-/* line 12, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_base.scss */
 main {
   background-color: #222928;
 }
 
-/* line 18, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_base.scss */
 .card-img {
   background-size: cover;
 }
 
-/* line 24, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_base.scss */
 .card-body {
   background-color: #222928;
 }
 
-/* line 31, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_base.scss */
 hr {
   color: #446F75;
   border: 1px #446F75 solid;
   margin-bottom: 50px;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 .navbar {
   background-color: #222928;
 }
 
-/* line 8, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 .nav-item a {
   color: #71A6AD;
 }
 
-/* line 12, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 .nav-item a:hover {
   color: #BBE74B;
 }
 
-/* line 19, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
   color: #BBE74B;
 }
 
-/* line 26, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 #footer-wrapper {
   border-top: 1px solid #446F75;
 }
 
-/* line 33, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 .navbar-toggler {
   color: #71A6AD;
   border: 1px solid #71A6AD;
 }
 
-/* line 41, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_navigation.scss */
 span .navbar-toggler-icon {
   color: #BBE74B;
 }
 
-/* line 1, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 #video_cover {
   position: absolute;
   width: 100%;
@@ -432,7 +363,6 @@ span .navbar-toggler-icon {
   background-position: center;
 }
 
-/* line 12, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 #background_video {
   position: absolute;
   top: 27%;
@@ -443,12 +373,10 @@ span .navbar-toggler-icon {
   width: 100%;
 }
 
-/* line 24, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 #container {
   height: 570px;
 }
 
-/* line 28, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 #container {
   overflow: hidden;
   position: absolute;
@@ -458,30 +386,30 @@ span .navbar-toggler-icon {
   bottom: 0;
 }
 
-/* line 37, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 .card-header {
   border-bottom: none;
   margin-top: 50px;
 }
 
-/* line 44, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 .card-title {
   margin-bottom: 30px;
 }
 
-/* line 50, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 #header-card-title {
   color: #71A6AD;
-  background-color: #00000000;
+  background-color: rgba(0, 0, 0, 0);
   border-bottom: none;
   border: none;
 }
 
-/* line 62, ../../OneDrive/VSCode/JamesReich.github.io/scss/base/_header.scss */
 #header-card-body {
   color: #BBE74B;
-  background-color: #00000000;
+  background-color: rgba(0, 0, 0, 0);
   border: none;
+}
+
+#about {
+  max-width: 1000px;
 }
 
 /*# sourceMappingURL=styles.css.map */
