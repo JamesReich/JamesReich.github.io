@@ -111,24 +111,24 @@ window.onload = function () {
         // generate a five digit number for the contact_number variable
         this.contact_number.value = Math.random() * 100000 | 0;
 
-        if (nameForm.value == '') {
+        if (nameForm.value === '') {
 
             namePlaceholder[0].placeholder = 'Please enter your name';
             nameForm.style.border = '3px solid rgb(221, 79, 79)'
 
-        } else if (messageForm.value == '') {
+        } else if (messageForm.value === '') {
 
             messagePlaceholder[0].placeholder = 'Message must not be empty';
             messageForm.style.border = '3px solid rgb(221, 79, 79)'
 
-        } else if (emailForm.value == '') {
+        } else if (emailForm.value === '') {
 
             emailPlaceholder[0].placeholder = 'Please enter a valid email'
             emailForm.style.border = '3px solid rgb(221, 79, 79)'
 
 
 
-        } else if (nameForm.value == '' && messageForm.value == '') {
+        } else if (nameForm.value === '' && messageForm.value === '') {
 
 
             namePlaceholder[0].placeholder = 'Please enter your name';
